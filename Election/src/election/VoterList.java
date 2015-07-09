@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class VoterList {
 	
-	ArrayList<Voter> vlist = new ArrayList<Voter>();
+	private ArrayList<Voter> vlist = new ArrayList<Voter>();
 	
 	public VoterList(){
 		vlist = this.createList();
@@ -16,6 +16,10 @@ public class VoterList {
 		list.add(new Voter("Prajact",101));
 		list.add(new Voter("Amit",555));
 		return list;
+	}
+	
+	public ArrayList<Voter> getVlist() {
+		return vlist;
 	}
 
 }
