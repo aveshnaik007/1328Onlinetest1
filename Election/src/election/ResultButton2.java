@@ -4,7 +4,7 @@ public class ResultButton2 implements Button{
 
 	@Override
 	public void press() {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stu
 		
 	}
 
