@@ -12,9 +12,9 @@ public class VoterList {
 	
 	public ArrayList<Voter> createList() {
 		ArrayList<Voter> list = new ArrayList<Voter>();
-		list.add(new Voter("Girish",111));
-		list.add(new Voter("Prajact",101));
-		list.add(new Voter("Amit",555));
+		list.add(new Voter("Girish",111,"James"));
+		list.add(new Voter("Prajact",101,"Rohit"));
+		list.add(new Voter("Amit",555,"James"));
 		return list;
 	}
 	

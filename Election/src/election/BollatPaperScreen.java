@@ -4,8 +4,8 @@ public class BollatPaperScreen {
 	
 	CandidateList cl;
 	
-	public BollatPaperScreen() {
-		cl = new CandidateList();
+	public BollatPaperScreen(CandidateList cl) {
+		this.cl = cl;
 	}
 
 }

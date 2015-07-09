@@ -11,14 +11,12 @@ public class BallotingUnit {
 		readylamp = new BollatReadyLamp();
 		candidatelamp = new BollatCandidateLamp();
 		for(int i=0;i<cl.allCL.size();i++){
-			cb.add(cl.allCL.get(i));
+			cb.add(new CandidateButton((cl.allCL.get(i))));
 		}
-		cb = new CandidateButton();
-		Bps = new BollatPaperScreen();
+		Bps = new BollatPaperScreen(cl);
 	}
 	
-	public void useBallot() {
-		
+	public void useBallot(Voter v) {
 		
 	}
 		

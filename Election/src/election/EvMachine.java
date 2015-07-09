@@ -11,7 +11,7 @@ public class EvMachine {
 	
 	public void EVservice(Voter v,CandidateList cl) {
 		Bu = new BallotingUnit(cl);
-		Bu.useBallot();
+		Bu.useBallot(v);
 	}
 
 }
